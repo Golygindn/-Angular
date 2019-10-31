@@ -1,0 +1,22 @@
+:host {
+  height: 1010px;
+  font-family: Ubuntu-Light;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2px solid var(--BG-color);
+  padding: 1rem 4rem;
+  background: var(--Black-color) url("/assets/heroes.png") no-repeat center center;
+  background-size: cover;
+}
+
+.mission_block {
+  color: var(--Font-color);
+  font-size: var(--Font-size-text);
+  background: var(--BG-color-2);
+  box-shadow: var(--Box-shadow);
+  border-radius: var(--Border-radius);
+  box-sizing: border-box;
+  width: 500px;
+  padding: 2rem;
+}

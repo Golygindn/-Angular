@@ -5,7 +5,11 @@
   "projects": {
     "y": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -117,9 +121,10 @@
             "production": {
               "devServerTarget": "y:serve:production"
             }
+            }
+          }
           }
         }
-      }
-    }},
-  "defaultProject": "y"
+      },
+  "defaultProject": "IT2G"
 }

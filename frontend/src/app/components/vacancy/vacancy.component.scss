@@ -1,0 +1,33 @@
+.vacancy_home {
+  width: 100%;
+  height: 1010px;
+  background: url("/assets/books-break-coffee-927451.jpg") no-repeat center center;
+  font-family: Ubuntu-Light;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid var(--BG-color);
+}
+
+.jobs_home {
+  width: 400px;
+  background: var(--BG-color-2);
+  border-radius: var(--Border-radius);
+  box-shadow: var(--Box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+  padding: 2rem;
+}
+
+.jobs_vacancy_home {
+  color: var(--Font-color);
+  font-size: var(--Font-size-text);
+}
+
+a {
+  width: 100%;
+}

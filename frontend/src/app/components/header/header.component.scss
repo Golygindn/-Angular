@@ -1,0 +1,42 @@
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: var(--Header_BG-color-2);
+}
+
+.logo {
+  background: url("/assets/Logo.png") no-repeat center center;
+  background-size: contain;
+  width: 120px;
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+
+
+
+.Menu_section a {
+  display: block;
+  text-decoration: none;
+  font-family: Ubuntu-Medium, serif;
+  font-size: var(--Font-size);
+  color: var(--Azur-color);
+  padding: 10px 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+
+.Menu_section a:hover {
+  color: var(--Orange-color);
+}
+
+.Menu_section .active {
+  color: var(--Orange-color);
+}
