@@ -9,6 +9,10 @@ import { AboutComponent } from './components/about/about.component';
 import { VacancyComponent } from './components/vacancy/vacancy.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { AboutpageComponent } from './components/aboutpage/aboutpage.component';
+import {HomepageModule} from './components/homepage/homepage.module';
+import {AboutpageModule} from './components/aboutpage/aboutpage.module';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,14 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     VacancyComponent,
     ContactsComponent,
-    FooterComponent
+    FooterComponent,
+    AboutpageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomepageModule,
+    AboutpageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
