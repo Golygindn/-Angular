@@ -13,6 +13,8 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { AboutpageComponent } from './components/aboutpage/aboutpage.component';
 import {HomepageModule} from './components/homepage/homepage.module';
 import {AboutpageModule} from './components/aboutpage/aboutpage.module';
+import {HeaderModule} from './components/header/header.module';
+import {FooterModule} from './components/footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -28,10 +30,17 @@ import {AboutpageModule} from './components/aboutpage/aboutpage.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomepageModule,
-    AboutpageModule
+    AboutpageModule,
+    HeaderModule,
+    FooterModule
   ],
   providers: [],
+  exports: [
+    ContactsComponent,
+    VacancyComponent,
+    AboutComponent,
+    HomeComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
