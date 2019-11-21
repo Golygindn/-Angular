@@ -2,25 +2,23 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {HomepageRoutingModule} from './homepage-routing.module';
 import {HomepageComponent} from './homepage.component';
-import {HomeModule} from '../home/home.module';
-import {ContactsModule} from '../contacts/contacts.module';
-import {AboutModule} from '../about/about.module';
-import {VacancyModule} from '../vacancy/vacancy.module';
-import {AppModule} from '../../app.module';
+import {HomeComponent} from '../home/home.component';
+import {AboutComponent} from '../about/about.component';
+import {ContactsComponent} from '../contacts/contacts.component';
+import {VacancyComponent} from '../vacancy/vacancy.component';
 
 
 @NgModule({
   declarations: [
     HomepageComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactsComponent,
+    VacancyComponent
   ],
   imports: [
     CommonModule,
-    HomepageRoutingModule,
-    HomeModule,
-    ContactsModule,
-    AboutModule,
-    VacancyModule,
-    AppModule
+    HomepageRoutingModule
   ]
 })
 export class HomepageModule {
