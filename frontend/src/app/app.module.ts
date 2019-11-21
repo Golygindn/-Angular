@@ -1,31 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { AboutpageComponent } from './components/aboutpage/aboutpage.component';
-import {AboutpageModule} from './components/aboutpage/aboutpage.module';
 import {HeaderModule} from './components/header/header.module';
-import {FooterModule} from './components/footer/footer.module';
-import {RouterModule} from '@angular/router';
-import {HomepageModule} from './components/homepage/homepage.module';
+import { WrapperComponent } from './components/wrapper/wrapper.component';
+import {HomeComponent} from "./components/home/home.component";
+import {AboutComponent} from "./components/about/about.component";
+import {VacancyComponent} from "./components/vacancy/vacancy.component";
+import {ContactsComponent} from "./components/contacts/contacts.component";
+import { BtnComponent } from './components/btn/btn.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
+    WrapperComponent,
+    HomeComponent,
+    AboutComponent,
+    VacancyComponent,
+    ContactsComponent,
+    BtnComponent,
   ],
   imports: [
     BrowserModule,
-    RouterModule,
-    AppRoutingModule,
-    HomepageModule,
-    AboutpageModule,
     HeaderModule,
-    FooterModule
   ],
   providers: [],
   exports: [],
