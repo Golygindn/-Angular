@@ -6,13 +6,13 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./vacancy.component.scss']
 })
 export class VacancyComponent implements OnInit {
-  @Input()
-  title: string;
 
   constructor() {
   }
 
   ngOnInit() {
   }
-
+  funct(){
+  window.open('https://www.behance.net','_blank')
+  }
 }
