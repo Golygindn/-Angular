@@ -1,0 +1,33 @@
+.button {
+  width: 260px;
+  height: 100%;
+  font-size: var(--Font-size-text);
+  border-radius: var(--Border-radius);
+  background-color: var(--Azur-color);
+  color: var(--White-color);
+  box-shadow: var(--Box-shadow);
+  border: none;
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: var(--Orange-color);
+}
+
+/*
+.button:active {
+  background-color: var(--Orange-color);
+  border: 2px solid var(--White-color);
+}
+*/
+
+.button:focus {
+  outline: none;
+}
+
+
+.title {
+  padding: 0.8rem;
+}
